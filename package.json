@@ -1,0 +1,23 @@
+{
+  "name": "extrap-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "checker": "node check/checker.js"
+  },
+  "author": "yogs",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "async": "^3.2.0",
+    "cheerio": "^1.0.0-rc.5",
+    "colors": "^1.4.0",
+    "delay": "^4.4.0",
+    "readline-sync": "^1.4.10",
+    "tracer": "^1.1.4",
+    "node-fetch": "^2.6.1"
+  }
+}
